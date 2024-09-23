@@ -72,4 +72,4 @@ class UserBehavior(TaskSet):
 class WebsiteUser(HttpUser):
     tasks = [UserBehavior]
     wait_time = between(1, 5)
-    host = 'http://192.168.20.56' ## Dominio de url
+    host = 'http://0.0.0.0' ## Dominio de url
